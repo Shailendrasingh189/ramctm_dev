@@ -4642,6 +4642,7 @@ input[type="button"].btn-block {
   padding: 0.25rem 0.75rem;
   font-size: 1.25rem;
   line-height: 1;
+  color: #000;
   background-color: transparent;
   border: 1px solid transparent;
   border-radius: 0.25rem;
@@ -4966,7 +4967,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-light .navbar-toggler {
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0,0.1);
   border-color: rgba(0, 0, 0, 0.1);
 }
 
@@ -10430,7 +10431,7 @@ body.menu-show {
 }
 
 span {
-  color: #bfbfbf;
+  color: #000;
 }
 
 a {
@@ -10587,7 +10588,8 @@ h5,
 
 .ftco-navbar-light .navbar-toggler {
   border: none;
-  color: rgba(255, 255, 255, 0.5) !important;
+  /* color: rgba(255, 255, 255, 0.5) !important; */
+  color: rgba(0,0,0,0.8) !important;
   cursor: pointer;
   padding-right: 0;
   text-transform: uppercase;
@@ -10653,7 +10655,7 @@ h5,
 
 .ftco-navbar-light.scrolled .navbar-toggler {
   border: none;
-  color: rgba(0, 0, 0, 0.5) !important;
+  color: rgba(0, 0, 0, 0.8) !important;
   border-color: rgba(0, 0, 0, 0.5) !important;
   cursor: pointer;
   padding-right: 0;
