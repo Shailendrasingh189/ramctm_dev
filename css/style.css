@@ -589,7 +589,8 @@ pre code {
 }
 
 .container {
-  width: 100%;
+  width: 90%;
+  /* max-width: 1200px; */
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -598,25 +599,32 @@ pre code {
 
 @media (min-width: 576px) {
   .container {
-    max-width: 540px;
+    max-width: 100%;
+    /* max-width: 540px; */
   }
 }
 
 @media (min-width: 768px) {
   .container {
-    max-width: 720px;
+    /* max-width: 720px; */
+    max-width: 100%;
+
   }
 }
 
 @media (min-width: 992px) {
   .container {
-    max-width: 960px;
+    /* max-width: 960px; */
+    max-width: 100%;
+
   }
 }
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 1140px;
+    /* max-width: 1140px; */
+    max-width: 100%;
+
   }
 }
 
@@ -9451,7 +9459,8 @@ button.bg-dark:focus {
 
   .pl-md-5,
   .px-md-5 {
-    padding-left: 3rem !important;
+    padding-left: 2rem !important;
+    padding: 2rem 0;
   }
 
   .m-md-auto {
@@ -10467,7 +10476,8 @@ h5,
 }
 
 .ftco-navbar-light {
-  background: transparent !important;
+  /* background: transparent !important; */
+  background: #f0f0f0 !important;
   position: absolute;
   left: 0;
   right: 0;
@@ -10477,14 +10487,16 @@ h5,
 
 @media (max-width: 991.98px) {
   .ftco-navbar-light {
-    background: #000 !important;
+    /* background: #000 !important; */
+    background: #fff;
     top: 0;
     position: relative;
   }
 }
 
 .ftco-navbar-light .navbar-brand {
-  color: #fff;
+  /* color: #fff; */
+  color:#533f03
 }
 
 @media (min-width: 768px) {
@@ -11852,13 +11864,13 @@ textarea.form-control {
 }
 
 .ftco-section {
-  padding: 7em 0;
+  padding: 4em 0;
   position: relative;
 }
 
 @media (max-width: 767.98px) {
   .ftco-section {
-    padding: 6em 0;
+    padding: 3em 0;
   }
 }
 
