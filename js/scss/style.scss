@@ -1506,8 +1506,10 @@ textarea.form-control {
 
 .img-about{
 	@include media-breakpoint-down(sm){
+
 		height: 400px;
 		margin-bottom: 30px;
+		padding-top: 1px;
 	}
 }
 
